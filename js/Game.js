@@ -85,14 +85,10 @@ class Game {
       player.update();
     }
 
-    if(player.distance > 3860){
-      gameState = 2;
-    }
+    // code for game end 
    
     drawSprites();
   }
 
-  end(){
-    console.log("Game Ended");
-  }
+ 
 }
